@@ -69,8 +69,6 @@ jobs:
         include:
           - build_variant: "mt7621-usb-1"
             targets: "NEWIFI3"
-          - build_variant: "mt7621-usb-2"
-            targets: "NEWIFI-D1"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@main
